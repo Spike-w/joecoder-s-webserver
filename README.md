@@ -4,4 +4,5 @@
 
 采用TCP流式socket通讯、仿Proactor模式、利用epoll、水平触发且设置EPOLLONESHOT事件、定时非活跃检测(未集成)等方法和技术实现基本的webserver，
 借助webbench进行服务器压力测试，可接受约9000个客户端的并发访问。
+
 ![c02e36dd3b9c82faf6df0b06d2da832](https://github.com/user-attachments/assets/89a78e83-ddc0-4c04-9c20-6bb3fd0a65a6)
